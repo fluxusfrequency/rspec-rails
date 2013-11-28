@@ -128,7 +128,7 @@ or use a higher-level [request spec](#request-specs).
 ## <a id="request-spec"></a>Request Specs
 
 Request specs live in spec/requests, spec/api and
-spec/integration, and mix in behavior
+spec/integration, and mix in behavior from
 [ActionDispatch::Integration::Runner](http://api.rubyonrails.org/classes/ActionDispatch/Integration/Runner.html),
 which is the basis for [Rails' integration
 tests](http://guides.rubyonrails.org/testing.html#integration-testing).  The
@@ -195,7 +195,7 @@ Feature specs live in spec/features, and mix in functionality from the
 capybara gem.
 
 Feature specs test your application from the outside by simulating a browser.
-capybara is used to manage the simulated browser.
+Capybara is used to manage the simulated browser.
 
 To use feature specs, add `capybara` to `Gemfile`:
 
